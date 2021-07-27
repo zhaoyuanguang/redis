@@ -15,6 +15,8 @@ public class TestRedisMQ {
         Thread t2 = new Thread(new Consumer());
         t2.start();
         t2.join();
+        //
+        System.out.println("hhh");
 
     }
 }
